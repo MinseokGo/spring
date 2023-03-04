@@ -7,7 +7,7 @@ public class Main {
 
         //DB에 새로운 유저 정보 등록
         User user = new User();
-        user.setId("해");
+        user.setId("goodasㅁㄴㅇd");
         user.setName("행배");
         user.setPassword("1234");
 

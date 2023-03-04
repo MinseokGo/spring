@@ -32,12 +32,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/computer/OneDrive/바탕 화면/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar",
+    "last_opened_file_path": "C:/Users/computer/OneDrive/바탕 화면/spring/src/1-2",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\computer\OneDrive\바탕 화면\spring\src\1-2" />
+      <recent name="C:\Users\computer\OneDrive\바탕 화면\spring\src\1-1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
