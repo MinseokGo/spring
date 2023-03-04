@@ -3,14 +3,13 @@ import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-
 public class UserDao {
     //User 정보를 DB에 추가
     public void add(User user) throws ClassNotFoundException, SQLException {
         //DB 드라이버 로드 및 DB 연결
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection c = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306", "spring", "@@alstjr12");
+                "jdbc:mysql://localhost:3306/user", "minseok", "1234");
 
         //SQL문 생성
         PreparedStatement ps = c.prepareStatement(
@@ -31,7 +30,7 @@ public class UserDao {
         //DB 드라이버 로드 및 DB 연결
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection c = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306", "spring", "@@alstjr12");
+                "jdbc:mysql://localhost:3306/user", "minseok", "1234");
 
         //SQL문 생성
         PreparedStatement ps = c.prepareStatement(
@@ -51,7 +50,7 @@ public class UserDao {
         rs.close();
         ps.close();
         c.close();
-        
+
         //조회 결과 리턴
         return user;
     }
