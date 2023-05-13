@@ -1,0 +1,9 @@
+# spring
+spring:
+  data:
+    mongodb:
+      host: localhost
+      database: test
+      username: minseokgo
+      password: 111122
+      uri: mongodb://localhost:27017/test
