@@ -38,7 +38,7 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../../../src/main/resources/templates/home.html'),
+    index: path.resolve(__dirname, '../../../src/main/resources/static/home.html'),
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../../../src/main/resources/static'),

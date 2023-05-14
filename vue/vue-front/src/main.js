@@ -1,15 +1,10 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import App from './App'
-import router from './router'
+import { createApp } from 'vue'
+import App from './App.vue'
+export default router;
 
-Vue.config.productionTip = false
+// 생성한 뷰 라우터 받아오기
+import { router } from './router.js'
 
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
-})
+const app = createApp(App)
+app.use(router)  // 라우터 사용
+app.mount('#app')
