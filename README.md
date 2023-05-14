@@ -14,7 +14,7 @@ npm run buld //빌드
 npm run dev //VSCode는 npm run serve
 ```
 
-!에러!
+# !에러!
 1. [Error] Error: ENOENT: no such file or directory, uv_cwd 에러  
 https://velog.io/@s_yeah/Error-Error-ENOENT-no-such-file-or-directory-uvcwd-%EC%97%90%EB%9F%AC  
 
